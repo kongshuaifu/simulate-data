@@ -1,0 +1,27 @@
+Thread 0 Crashed:
+0 libobjc.A.dylib 0x0000442c objc_msgSend + 36
+1 Foundation 0x00003d28 NSClassFromObject + 8
+2 Foundation 0x000044ec -[NSCFString isEqualToString:] + 28
+3 jpGrammarN1 0x00003bf8 0x1000 + 11256
+4 jpGrammarN1 0x00003736 0x1000 + 10038
+5 CoreFoundation 0x000493dc -[NSObject(NSObject) performSelector:withObject:withObject:] + 20
+6 UIKit 0x00086424 -[UIApplication sendAction:to:from:forEvent:] + 128
+7 UIKit 0x0008638c -[UIApplication sendAction:toTarget:fromSender:forEvent:] + 32
+8 UIKit 0x00086354 -[UIControl sendAction:to:forEvent:] + 44
+9 UIKit 0x00085fa4 -[UIControl(Internal) _sendActionsForEvents:withEvent:] + 528
+10 UIKit 0x0008681c -[UIControl touchesEnded:withEvent:] + 452
+11 UIKit 0x0008483c -[UIWindow _sendTouchesForEvent:] + 580
+12 UIKit 0x00083e70 -[UIWindow sendEvent:] + 388
+13 UIKit 0x0007d5f0 -[UIApplication sendEvent:] + 444
+14 UIKit 0x0007ccf8 _UIApplicationHandleEvent + 6804
+15 GraphicsServices 0x00005dd8 PurpleEventCallback + 1024
+16 CoreFoundation 0x00035e40 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE1_PERFORM_FUNCTION__ + 22
+17 CoreFoundation 0x00035dfe __CFRunLoopDoSource1 + 158
+18 CoreFoundation 0x0002809e __CFRunLoopRun + 574
+19 CoreFoundation 0x00027d74 CFRunLoopRunSpecific + 220
+20 CoreFoundation 0x00027c82 CFRunLoopRunInMode + 54
+21 GraphicsServices 0x00004e84 GSEventRunModal + 188
+22 UIKit 0x00004f8c -[UIApplication _run] + 564
+23 UIKit 0x000024cc UIApplicationMain + 964
+24 jpGrammarN1 0x00002532 0x1000 + 5426
+25 jpGrammarN1 0x000024dc 0x1000 + 5340

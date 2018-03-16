@@ -1,0 +1,14 @@
+menu_exit
+menu_logout
+menu_click
+register
+t_click
+nearbycontact
+friendcontact
+mycontact
+accurate
+condition
+nearby
+mylocation
+blogtoprefresh
+bottom_menu_blogrefresh

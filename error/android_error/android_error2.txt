@@ -1,0 +1,20 @@
+java.lang.IllegalArgumentException: Activity#onCreateDialog did not create a dialog for id 4
+    at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2596)
+    at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2621)
+    at android.app.ActivityThread.access$2200(ActivityThread.java:126)
+    at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1932)
+    at android.os.Handler.dispatchMessage(Handler.java:99)
+    at android.os.Looper.loop(Looper.java:123)
+    at android.app.ActivityThread.main(ActivityThread.java:4595)
+    at java.lang.reflect.Method.invokeNative(Native Method)
+    at java.lang.reflect.Method.invoke(Method.java:521)
+    at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:860)
+    at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618)
+    at dalvik.system.NativeStart.main(Native Method)
+Caused by: java.lang.IllegalArgumentException: Activity#onCreateDialog did not create a dialog for id 4
+    at android.app.Activity.createDialog(Activity.java:878)
+    at android.app.Activity.restoreManagedDialogs(Activity.java:867)
+    at android.app.Activity.performRestoreInstanceState(Activity.java:815)
+    at android.app.Instrumentation.callActivityOnRestoreInstanceState(Instrumentation.java:1096)
+    at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2565)
+    ... 11 more

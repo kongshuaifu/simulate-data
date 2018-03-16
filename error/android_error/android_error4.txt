@@ -1,0 +1,18 @@
+java.lang.RuntimeException: Unable to start activity ComponentInfo{com.wbtech.ums\/com.wbtech.ums.MainActivity}: java.lang.ClassCastException: android.widget.Button\n\t
+at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1647)\n\t
+at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1663)\n\t
+at android.app.ActivityThread.access$1500(ActivityThread.java:117)\n\t
+at android.app.ActivityThread$H.handleMessage(ActivityThread.java:931)\n\t
+at android.os.Handler.dispatchMessage(Handler.java:99)\n\t
+at android.os.Looper.loop(Looper.java:123)\n\t
+at android.app.ActivityThread.main(ActivityThread.java:3683)\n\t
+at java.lang.reflect.Method.invokeNative(Native Method)\n\t
+at java.lang.reflect.Method.invoke(Method.java:507)\n\t
+at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)\n\t
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)\n\t
+at dalvik.system.NativeStart.main(Native Method)\n
+Caused by: java.lang.ClassCastException: android.widget.Button\n\t
+at com.wbtech.ums.MainActivity.onCreate(MainActivity.java:56)\n\t
+at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047)\n\t
+at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1611)\n\t... 
+11 more\n

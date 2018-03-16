@@ -1,0 +1,18 @@
+[SSD-2:/var/log] yarshure% uname -a
+Darwin SSD-2.local 11.4.0 Darwin Kernel Version 11.4.0: Tue Mar 27 17:20:01 PDT 2012; root:xnu-1699.26.7~1/RELEASE_X86_64 x86_64
+
+
+Sat Mar 31 11:33:39 2012 : PPTP connecting to server 'mxxx.com' (ipaddr)...
+Sat Mar 31 11:33:40 2012 : PPTP connection established.
+Sat Mar 31 11:33:40 2012 : PPTP set port-mapping for en0, interface: 4, protocol: 0, privatePort: 0
+Sat Mar 31 11:33:40 2012 : Using interface ppp0
+Sat Mar 31 11:33:40 2012 : Connect: ppp0 <--> socket[34:17]
+Sat Mar 31 11:33:40 2012 : PPTP port-mapping for en0, interfaceIndex: 0, Protocol: None, Private Port: 0, Public Address: 0, Public Port: 0, TTL: 0.
+Sat Mar 31 11:33:40 2012 : PPTP port-mapping for en0 inconsistent. is Connected: 1, Previous interface: 4, Current interface 0
+Sat Mar 31 11:34:10 2012 : PPTP error when reading socket : EOF
+Sat Mar 31 11:34:10 2012 : PPTP error when reading header : read -1, expected 12 bytes
+Sat Mar 31 11:34:10 2012 : PPTP hangup
+Sat Mar 31 11:34:10 2012 : Connection terminated.
+Sat Mar 31 11:34:10 2012 : PPTP clearing port-mapping for en0
+Sat Mar 31 11:34:10 2012 : PPTP disconnecting...
+Sat Mar 31 11:34:10 2012 : PPTP disconnected

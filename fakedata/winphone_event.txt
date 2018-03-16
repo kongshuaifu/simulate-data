@@ -1,0 +1,10 @@
+clickLogin
+clickHelp
+clickExit
+clickAD
+moveNext
+movePrev
+touchScreen
+clickOKinMain
+clickYes
+clickNo

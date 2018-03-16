@@ -1,0 +1,15 @@
+MainActivity
+AboutActivity
+AddFriendActivity
+BlogActivityGroup
+CameraActivity
+ChatActivity
+ContactActivity
+FileActivity
+FindContactActivity
+FriendContactActivity
+FriendRequestActivity
+LoginActivity
+MapViewActivity
+RegistActivity
+SettingsActivity

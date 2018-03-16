@@ -1,0 +1,31 @@
+-[UIImageView cancelBtnPress]: unrecognized selector sent to instance 0xcae6920
+(null)
+(
+	0   CoreFoundation                      0x30a5064f __exceptionPreprocess + 114
+	1   libobjc.A.dylib                     0x3456bc5d objc_exception_throw + 24
+	2   CoreFoundation                      0x30a541bf -[NSObject(NSObject) doesNotRecognizeSelector:] + 102
+	3   CoreFoundation                      0x30a53649 ___forwarding___ + 508
+	4   CoreFoundation                      0x309ca180 _CF_forwarding_prep_0 + 48
+	5   CoreFoundation                      0x309c0571 -[NSObject(NSObject) performSelector:withObject:withObject:] + 24
+	6   UIKit                               0x30aceec9 -[UIApplication sendAction:to:from:forEvent:] + 84
+	7   UIKit                               0x30acee69 -[UIApplication sendAction:toTarget:fromSender:forEvent:] + 32
+	8   UIKit                               0x30acee3b -[UIControl sendAction:to:forEvent:] + 38
+	9   UIKit                               0x30aceb8d -[UIControl(Internal) _sendActionsForEvents:withEvent:] + 356
+	10  UIKit                               0x30acf423 -[UIControl touchesEnded:withEvent:] + 342
+	11  UIKit                               0x30acdbf5 -[UIWindow _sendTouchesForEvent:] + 368
+	12  UIKit                               0x30acd56f -[UIWindow sendEvent:] + 262
+	13  UIKit                               0x30ab6313 -[UIApplication sendEvent:] + 298
+	14  UIKit                               0x30ab5c53 _UIApplicationHandleEvent + 5090
+	15  GraphicsServices                    0x30339e77 PurpleEventCallback + 666
+	16  CoreFoundation                      0x30a27a97 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE1_PERFORM_FUNCTION__ + 26
+	17  CoreFoundation                      0x30a2983f __CFRunLoopDoSource1 + 166
+	18  CoreFoundation                      0x30a2a60d __CFRunLoopRun + 520
+	19  CoreFoundation                      0x309baec3 CFRunLoopRunSpecific + 230
+	20  CoreFoundation                      0x309badcb CFRunLoopRunInMode + 58
+	21  GraphicsServices                    0x3033941f GSEventRunModal + 114
+	22  GraphicsServices                    0x303394cb GSEventRun + 62
+	23  UIKit                               0x30ae0d69 -[UIApplication _run] + 404
+	24  UIKit                               0x30ade807 UIApplicationMain + 670
+	25  TapCode                             0x00005187 TapCode + 16775
+	26  TapCode                             0x0000308c TapCode + 8332
+)
