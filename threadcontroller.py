@@ -235,6 +235,7 @@ class threadcontroller(object):
         list_activities_iphone = readfile.readtext("iphone_activities.txt", "fakedata/")
         list_version = readfile.readtext("version.txt", "fakedata/")
         list_hours = readfile.readtext("hour.txt", "fakedata/")
+        #label_list = ("label%s" % i for i in range(100))
 
         sdate = time.strptime(date, "%Y-%m-%d")
         startdate = datetime.datetime(sdate[0], sdate[1], sdate[2])
@@ -262,7 +263,6 @@ class threadcontroller(object):
             startdate = datetime.datetime(starttime[0], starttime[1], starttime[2], starttime[3], starttime[4],
                                           starttime[5])
 
-            label_list = ("label%s" %i for i in range(25))
 
             for j in range(0, usepages):
                 print "-----------------------"
@@ -285,10 +285,11 @@ class threadcontroller(object):
                         c["event_identifier"] = getfakedata.getdata(list_event_android)
                     else:
                         c["event_identifier"] = getfakedata.getdata(list_event_iphone)
+                    label_list = ("label%s" % i for i in range(25))
                     c["label"] = random.choice(list(label_list))
                     c["acc"] = random.randint(1, 5)
                     postitems.append(c)
-
+                    print c["label"]
                     # service.posteventlog(c)
                     print "            [" + str(enddate) + "]" + "Post Event " + str(k) + "/" + str(lloop) + " OK!"
                 print "        [" + str(enddate) + "]" + "Post Event Activity" + str(j) + "/" + str(usepages) + " OK!"
