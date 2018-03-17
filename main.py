@@ -19,12 +19,8 @@ if __name__ == '__main__':
     randomCount = random.randint(minCount,maxCount)
 
     threadcontroller.PostClientdata(inputdate, randomCount)
-    raw_input()
     threadcontroller.PostUsinglog(inputdate, randomCount)
-    raw_input()
     threadcontroller.PostEvent(inputdate, randomCount)
-    raw_input()
     threadcontroller.PostError(inputdate,randomCount/10)
-    raw_input()
 
     pass
